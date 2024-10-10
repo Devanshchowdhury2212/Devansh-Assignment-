@@ -5,7 +5,7 @@ import {
     job,
     fetchDataImmediately,
 
-}  from './cronJob.js'
+}  from './jobs/cronJob.js'
 
 
 dotenv.config({

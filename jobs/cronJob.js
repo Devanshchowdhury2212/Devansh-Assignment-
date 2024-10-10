@@ -1,5 +1,5 @@
 import cron from 'node-cron';
-import fetchCryptoData from './fetchCryptoData.js'; 
+import fetchCryptoData from '../utils/fetchCryptoData.js' 
 
 // Run the job every 2 hours
 const job = cron.schedule('0 */2 * * *', () => {
