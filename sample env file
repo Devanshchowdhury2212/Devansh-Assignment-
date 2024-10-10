@@ -1,0 +1,5 @@
+MONGODB_URL=
+DB_NAME=
+coingeckokey=
+PORT=8080
+CORS_ORIGIN=*
